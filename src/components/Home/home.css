@@ -1,0 +1,19 @@
+.homepage-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-title {
+    color: #fcfcfe;
+    font-size: calc(10px + 6vmax);
+}
+  
+.homepage-subtitle {
+    color: #EDF6FD;
+    font-size: calc(10px + 2vmax);
+    margin-left: 0.15em;
+    padding-bottom: calc(10px + 5vmax);
+}

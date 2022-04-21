@@ -1,0 +1,23 @@
+.nav-item {
+    flex: 1;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.navbar-nav {
+    flex: 1;
+}
+
+.nav-link {
+    color: #F1F2EB;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+.nav-link:hover {
+    color: #EF761A;
+    text-decoration-color: #EF761A;
+    transition: 
+    color .25s ease-in,
+    text-decoration-color .25s ease-in;
+}

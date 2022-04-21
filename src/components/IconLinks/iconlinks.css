@@ -1,0 +1,18 @@
+.iconlinks-container {
+    position: fixed;
+    bottom: 1vh;
+    left: 1vw;
+}
+
+.iconlinks-icon {
+    max-height: calc(30px + 1vw);
+    object-fit: cover;
+}
+
+.iconlinks-icon:hover {
+    cursor: pointer;
+}
+
+.iconlinks-icon-container {
+    margin: 1vh 0;
+}

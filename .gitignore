@@ -3,6 +3,8 @@
 # User added
 .history
 .vscode
+RotatingSkills
+*.xcf
 
 # dependencies
 /node_modules
