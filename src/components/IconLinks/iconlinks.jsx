@@ -7,12 +7,20 @@ const Iconlinks = () => {
     return (
         <div class="iconlinks-container">
             <div class="iconlinks-icon-container">
-                <a href="https://github.com/BrettMM88">
+                <a
+                    href="https://github.com/BrettMM88"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <img src={githubIcon} class="iconlinks-icon" alt="Github Icon and Link to Github Profile" />
                 </a>
             </div>
             <div class="iconlinks-icon-container">
-                <a href="https://www.linkedin.com/in/brettmagee/">
+                <a
+                    href="https://www.linkedin.com/in/brettmagee/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <img src={linkedinIcon} class="iconlinks-icon" alt="Github Icon and Link to Github Profile" />
                 </a>
             </div>
