@@ -1,11 +1,10 @@
 .iconlinks-container {
-    position: fixed;
-    bottom: 1vh;
-    left: 1vw;
+    align-self: flex-start;
+    margin: 1vh;
 }
 
 .iconlinks-icon {
-    max-height: calc(30px + 1vw);
+    max-height: calc(30px + 2vh);
     object-fit: cover;
 }
 

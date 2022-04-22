@@ -6,7 +6,7 @@
     align-items: center;
     min-width: 100vw;
     text-align: center;
-
+    flex-wrap: wrap;
 }
 
 a {
@@ -28,4 +28,6 @@ a:visited {
     flex: 1;
     color: #F1F2EB;
     font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
