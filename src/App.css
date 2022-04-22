@@ -1,15 +1,78 @@
+#root {
+    background-color: #1E1F1F;
+}
+
 .App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #1E1F1F;
-  font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1E1F1F;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .App-header {
-  display: flex;
-  flex: 0;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
 }
 
+@keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 10000px 0;
+    }
+}
+
+@-webkit-keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 10000px 0;
+    }
+}
+
+@-moz-keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 10000px 0;
+    }
+}
+
+@-ms-keyframes move-clouds-back {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 10000px 0;
+    }
+}
+
+.clouds {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.clouds {
+    background: transparent url("../public/images/clouds.png") repeat top center;
+    z-index: 3;
+
+    -moz-animation: move-clouds-back 200s linear infinite;
+    -ms-animation: move-clouds-back 200s linear infinite;
+    -o-animation: move-clouds-back 200s linear infinite;
+    -webkit-animation: move-clouds-back 200s linear infinite;
+    animation: move-clouds-back 200s linear infinite;
+}

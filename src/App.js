@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div class="App clouds">
       <header className="App-header">
         <Navbar />
       </header>
