@@ -1,6 +1,7 @@
 .iconlinks-container {
     align-self: flex-start;
     margin: 1vh;
+    min-width: calc(30px + 2vh);
 }
 
 .iconlinks-icon {

@@ -7,7 +7,7 @@
     flex-direction: column;
     min-height: 100vh;
     background-color: #1E1F1F;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
 }
 
 .App-header {
@@ -67,7 +67,7 @@
 }
 
 .clouds {
-    background: transparent url("../public/images/clouds.png") repeat top center;
+    background: transparent url("../public/images/test2.png") repeat top center;
     z-index: 3;
 
     -moz-animation: move-clouds-back 200s linear infinite;

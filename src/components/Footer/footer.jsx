@@ -3,9 +3,9 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <div class="footer-container .container-fluid">
-            <span class="footer-text">&copy; Brett Magee 2022</span>
-            <span class="footer-text">
+        <div className="footer-container .container-fluid">
+            <span className="footer-text">&copy; Brett Magee 2022</span>
+            <span className="footer-text">
                 Credit to <a href="https://codepen.io/WebSonick" target="_blank" rel="noopener noreferrer">@WebSonick</a> for the Cloud Animation
             </span>
         </div>

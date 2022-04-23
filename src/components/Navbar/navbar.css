@@ -8,15 +8,16 @@
     flex: 1;
 }
 
-a.nav-link {
+a.nav-link,
+a.nav-link:visited {
     color: #F1F2EB;
     text-decoration: underline;
     text-decoration-color: transparent;
 }
 
 a.nav-link:hover {
-    color: #EF761A;
-    text-decoration-color: #EF761A;
+    color: #ff948e;
+    text-decoration-color: #ff948e;
     transition:
         color .25s ease-in,
         text-decoration-color .25s ease-in;

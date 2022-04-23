@@ -1,23 +1,21 @@
-import React from 'react'
-import './navbar.css'
+import React from 'react';
+import './navbar.css';
+import resume from '../Resume/Brett Magee - Resume.pdf';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-sm">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-sm">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/resume">Resume</a>
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <Link to="/" className='nav-item nav-link'>Home</Link>
+                    <Link to="/projects" className='nav-item nav-link'>Projects</Link>
+                    <li className="nav-item">
+                        <a className="nav-link" href={resume} target="_blank" rel="noopener noreferrer" >Resume</a>
                     </li>
                 </ul>
             </div>

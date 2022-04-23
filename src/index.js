@@ -1,12 +1,25 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/Home/home';
+import Projects from './components/Projects/projects';
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container);
+
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route index element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+          {/* <Route path="/resume" element={<Home />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode >
 );
