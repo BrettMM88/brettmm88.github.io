@@ -1,0 +1,399 @@
+:root {
+    --animation-scale: 1s;
+}
+
+.icongrid-container {
+    position: relative;
+    flex: 1;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.icongrid-container .icon-container:first-child {
+    z-index: 7;
+}
+
+.icongrid-container .icon-container:nth-child(2),
+.icongrid-container .icon-container:nth-child(5) {
+    z-index: 6;
+}
+
+.icongrid-container .icon-container:nth-child(3),
+.icongrid-container .icon-container:nth-child(6),
+.icongrid-container .icon-container:nth-child(9) {
+    z-index: 5;
+}
+
+.icongrid-container .icon-container:nth-child(4),
+.icongrid-container .icon-container:nth-child(7),
+.icongrid-container .icon-container:nth-child(10),
+.icongrid-container .icon-container:nth-child(13) {
+    z-index: 4;
+}
+
+.icongrid-container .icon-container:nth-child(8),
+.icongrid-container .icon-container:nth-child(11),
+.icongrid-container .icon-container:nth-child(14) {
+    z-index: 3;
+}
+
+.icongrid-container .icon-container:nth-child(12),
+.icongrid-container .icon-container:nth-child(15) {
+    z-index: 2;
+}
+
+.icongrid-container .icon-container:last-child {
+    z-index: 1;
+}
+
+.icon-container {
+    flex: 1;
+    /* padding: 5px; */
+    min-width: 25%;
+    min-height: 25%;
+    max-height: 250px;
+    max-width: 250px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #1E1F1F;
+}
+
+.icongrid-icon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    /* background-color: #1E1F1F; */
+}
+
+#icon1 {
+    /* Placeholder */
+}
+
+#icon2 {
+    animation: 0.25s linear 0.25s 1 icon2Animation;
+}
+
+@keyframes icon2Animation {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+#icon3 {
+    animation: 0.5s linear 0.25s 1 icon3Animation;
+}
+
+@keyframes icon3Animation {
+    0% {
+        transform: translateX(-200%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+#icon4 {
+    animation: 0.75s linear 0.25s icon4Animation;
+}
+
+@keyframes icon4Animation {
+    0% {
+        transform: translateX(-300%);
+    }
+
+    33.33% {
+        transform: translateX(-200%);
+    }
+
+    66.66% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+#icon5 {
+    animation: 0.25s linear 0.25s 1 icon5Animation;
+}
+
+@keyframes icon5Animation {
+    0% {
+        transform: translateY(-100%);
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateY(0%);
+        visibility: visible;
+    }
+}
+
+#icon6 {
+    animation-name: icon6Animation;
+    animation-duration: 0.5s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon6Animation {
+    0% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    50% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon7 {
+    animation-name: icon7Animation;
+    animation-duration: 0.75s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon7Animation {
+
+    0%,
+    33.33% {
+        transform: translate(-200%, -100%);
+        visibility: hidden;
+    }
+
+    66.66% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon8 {
+    animation-name: icon8Animation;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon8Animation {
+
+    0%,
+    25%,
+    50%,
+    75% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon9 {
+    animation-name: icon9Animation;
+    animation-duration: 0.5s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon9Animation {
+    0% {
+        transform: translate(0%, -200%);
+        visibility: hidden;
+    }
+
+    50% {
+        transform: translate(0%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon10 {
+    animation-name: icon10Animation;
+    animation-duration: 0.75s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon10Animation {
+
+    0%,
+    33.33%,
+    66.66% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon11 {
+    animation-name: icon11Animation;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon11Animation {
+
+    0%,
+    75% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon12 {
+    animation-name: icon12Animation;
+    animation-duration: 1.25s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon12Animation {
+
+    0%,
+    80% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon13 {
+    animation-name: icon13Animation;
+    animation-duration: 0.75s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon13Animation {
+
+    0%,
+    66.66% {
+        transform: translate(0%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon14 {
+    animation-name: icon14Animation;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon14Animation {
+
+    0%,
+    75% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon15 {
+    animation-name: icon15Animation;
+    animation-duration: 1.25s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon15Animation {
+
+    0%,
+    80% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
+
+#icon16 {
+    animation-name: icon16Animation;
+    animation-duration: 1.5s;
+    animation-delay: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes icon16Animation {
+
+    0%,
+    83.33% {
+        transform: translate(-100%, -100%);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+        visibility: visible;
+    }
+}
