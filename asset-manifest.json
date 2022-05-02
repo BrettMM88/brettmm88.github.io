@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7378d16.css",
-    "main.js": "/static/js/main.900f5308.js",
-    "static/media/clouds.png": "/static/media/clouds.a87b2e3cf66c6f17f8b8.png",
+    "main.css": "/static/css/main.4aeea9b2.css",
+    "main.js": "/static/js/main.a1f0af05.js",
+    "static/media/Brett Magee - Resume.pdf": "/static/media/Brett Magee - Resume.6b80e61197e34955c476.pdf",
+    "static/media/react-icon-squared.png": "/static/media/react-icon-squared.57881ff872a9ee58184f.png",
+    "static/media/postgres-icon.png": "/static/media/postgres-icon.112051c8db4781fe6b42.png",
+    "static/media/flask-icon.png": "/static/media/flask-icon.7744c84f0df7a136de1f.png",
+    "static/media/dotnet-icon.png": "/static/media/dotnet-icon.d37549e99fdb06da4816.png",
+    "static/media/entity-framework-core-icon.png": "/static/media/entity-framework-core-icon.bf90ac76853476c74513.png",
+    "static/media/html5-icon.png": "/static/media/html5-icon.829bcfaf6cabd4e47327.png",
+    "static/media/css3-icon.png": "/static/media/css3-icon.e3a6f3f073e2f31e54c1.png",
+    "static/media/java-icon.png": "/static/media/java-icon.8d92703125a8c1beac3f.png",
+    "static/media/hibernate-icon.png": "/static/media/hibernate-icon.0218cf617563f1051c11.png",
+    "static/media/python-icon.png": "/static/media/python-icon.a1f0a29b5b0569807f4e.png",
+    "static/media/c-sharp-icon-squared.png": "/static/media/c-sharp-icon-squared.0f3bfffbd5bf15aeb23b.png",
+    "static/media/javascript-icon.png": "/static/media/javascript-icon.9d97d2e66869647fdc98.png",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.b01b0f574afc9c158455.png",
+    "static/media/vb-dotnet-icon-square.png": "/static/media/vb-dotnet-icon-square.c76c5cc68b9d64efa711.png",
     "static/media/github-icon.png": "/static/media/github-icon.05c226eb383dba36bd7b.png",
+    "static/media/spring-boot-icon.png": "/static/media/spring-boot-icon.e68d427486a3bd86b4d2.png",
     "index.html": "/index.html",
-    "main.e7378d16.css.map": "/static/css/main.e7378d16.css.map",
-    "main.900f5308.js.map": "/static/js/main.900f5308.js.map"
+    "main.4aeea9b2.css.map": "/static/css/main.4aeea9b2.css.map",
+    "main.a1f0af05.js.map": "/static/js/main.a1f0af05.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7378d16.css",
-    "static/js/main.900f5308.js"
+    "static/css/main.4aeea9b2.css",
+    "static/js/main.a1f0af05.js"
   ]
 }
